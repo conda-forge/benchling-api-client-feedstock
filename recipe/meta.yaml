@@ -1,5 +1,5 @@
 {% set name = "benchling-api-client" %}
-{% set version = "2.0.398" %}
+{% set version = "2.0.399" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/benchling_api_client-{{ version }}.tar.gz
-  sha256: 85c2dc7263cde6f52301234842fb768e799a40084d44d01b5db234ec80b6c4fc
+  sha256: 60bf498dba8fb40f1955a26f426c08858c5fe2207b0ad9b2bbeb26f9f7d9eefe
 
 build:
   noarch: python
